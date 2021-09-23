@@ -3,3 +3,4 @@ function minMax(arr){
     newArray.sort((a, b) => a - b);
     return  [newArray[0], newArray[newArray.length - 1]]
 }
+
