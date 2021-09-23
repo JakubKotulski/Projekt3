@@ -16,7 +16,8 @@ function danceForCash(input){
         else{
             output.push(danceMovesTable[selectedMove]);
         }
-        if(output[i] == " " || output.length > 4){
+        if(output[i] == undefined || output.length > 4){
+            console.log(output);
             return "Invalid value"
         }
     }
@@ -27,4 +28,4 @@ function danceForCash(input){
 console.log(danceForCash("0000"));
 console.log(danceForCash("3856"));
 console.log(danceForCash("9999"));
-console.log(danceForCash("32a1"))
+console.log(danceForCash("32a9"))
