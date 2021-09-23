@@ -1,6 +1,7 @@
 function charCount(charToCount, stringToCheck){
     let counter = 0;
-    for(let i = 0; i <= stringToCheck.length; i++){
+    for(let i = 0; i < stringToCheck.length; i++){
+        console.log(stringToCheck[i]);
         if(charToCount == stringToCheck[i]){
             counter++
         }
