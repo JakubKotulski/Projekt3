@@ -16,7 +16,7 @@ function danceForCash(input){
         else{
             output.push(danceMovesTable[selectedMove]);
         }
-        if(output[i] == " "){
+        if(output[i] == " " || output.length > 4){
             return "Invalid value"
         }
     }
