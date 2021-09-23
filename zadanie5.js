@@ -1,8 +1,7 @@
 function arrayOfMultiples(number, arrayLength){
     const result = [];
     for(let i = 1; i <= arrayLength; i++){
-        let numberToPush = number * i;
-        result.push(numberToPush);
+        result.push(number * i);
     }
     return result
 }
